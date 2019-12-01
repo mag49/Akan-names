@@ -20,5 +20,39 @@
           is derived from the day of the week they were born,<br>male and females are assigned separate names depending on their gender.<br>
           you can fill out the form we have here to identify your name<br> according to Ghanian culture.</P> 
           <p>This website takes the gender, date,month<br> and birth year of the user and generates<br>the Akan name according to Ghana naming method.</p>
+          <div class="row">
+            <div class="card col-md-12">
+              <form id="form-data">
+                <h2>Get your Akan name here</h2>
+                <lable class="day">Day</lable>
+                <div class="day">
+                  <input type="integer" id="dd" name="birth-date" placeholder="dd">
+                </div>
+                <lable class="month">Month</lable>
+                <div class="month">
+                  <input type="integer" id="m" name="birth-month" placeholder="mm">
+                  </div>
+                  <lable class="year">year</lable>
+                  <div class="year">
+                    <input type="integer" id="y" name="birth-year" placeholder="yy">
+                  </div>
+              </form>
+            </div>
+            <div class="form-group row">
+                <lable>Choose your gender:</lable>
+                <select id="gender" class="form-control form-control-sm">
+                <option>Choose your gender</option>
+                <option>Male</option>
+                <option>Female</option><br>
+              </select>
+            </div>
+            <form>
+              <div class="button">
+                  <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek()">Calculate Birthday</button></a>
+              </div>
+            </form>
+          </div>
+        </div>
+        </div>
 </body>
 </html>

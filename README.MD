@@ -1,0 +1,43 @@
+# Akan Names
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## License
+
+Licensed under [MIT license](license).

@@ -1,18 +1,19 @@
 
 body{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRacpaeVWr7x7FtAe3Ek-ad79uA21dS83oqRW4n2E_HGagea_Vzgg&s");
+    background-image: url("https://cceonlinenews.com/wp-content/uploads/2017/12/Ghanas-Accra-Kumasi-railway-line-construction-to-start.jpg");
     background-size: cover;
     font-size: 20px; 
     color:antiquewhite;
  }
  form{
-  background-color:aqua;
+  background-color:black;
   padding: 20px;
   padding-left: 80px;
   line-height: 5px;
   margin-top: 50px;
   height: 200px;
-  width: 1000px;
+  width: 600px;
+  margin-left: 400px;
  /* margin-left: 200px; */
         
 }
@@ -35,7 +36,7 @@ label{
      text-align: center;
      font-size: 40px;  
      text-shadow: 2px 2px 5px grey; 
-     color:black;
+     color:white;
     }
     h1{
         text-align: center;
@@ -45,7 +46,7 @@ label{
     }
     #submit{
         margin: 10px;
-        padding: 5px;
+        padding: 10px;
         background-color: cornflowerblue;
         border-radius: 5px;
     }
@@ -68,15 +69,23 @@ label{
     }
     #year{
         width: 250px;
-        border-radius: 5px;
+        border-radius: 10px;
     }
     #dob{
-        width: 250px;
+        widtpx;
         border-radius: 5px;
     }
     .culture{
         border:5px solid white;
         background-color: black;
+        margin-left: 100px;
+        margin-right:100px;
+    }
+    .method{
+        border:5px solid white;
+        background-color: black;
+        margin-left: 400px;
+        margin-right:400px;
     }
     
     

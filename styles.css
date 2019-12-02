@@ -74,8 +74,9 @@ label{
         width: 250px;
         border-radius: 5px;
     }
-    p{
-        align-text:center;
+    .culture{
+        border:5px solid white;
+        background-color: black;
     }
     
     

@@ -27,7 +27,7 @@ function akanNames() {
         } else if (female.checked) {
           alert("Your Akan name is " + femaleNames[result]);
         } else {
-          alert("Choose gender option");
+          alert("Choose the right gender option");
         }
       } else {
         alert("kindly enter the right day");

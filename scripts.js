@@ -5,4 +5,5 @@ var checkDayOfWeek=fuction(){
     var dayOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
     var date = document.getElementById("d").value;
+    var month = document.getElementById("m").value;
 }

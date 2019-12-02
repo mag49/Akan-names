@@ -6,4 +6,5 @@ var checkDayOfWeek=fuction(){
 
     var date = document.getElementById("d").value;
     var month = document.getElementById("m").value;
+    var month = document.getElementById("m").value;
 }

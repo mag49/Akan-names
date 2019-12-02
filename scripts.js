@@ -19,5 +19,25 @@ function akanNames() {
   var maleNames = ["Kwasi", " Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
   var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-  alert(maleNames[0]);
+  if (year < 2020 && year > 1900) {
+    if (month < 13 && month > 0) {
+      if (day < 32 && day > 0) {
+        if (male.checked) {
+          alert("Your Akan names is " + maleNames[result]);
+        } else if (female.checked) {
+          alert("Your Akan name is " + femaleNames[result]);
+        } else {
+          alert("Choose gender option");
+        }
+      } else {
+        alert("kindly enter the right day");
+      }
+
+    } else {
+      alert(" you have entered the wrong month");
+    }
+
+  } else {
+    alert(" kindly enter the right year");
+  }
 }

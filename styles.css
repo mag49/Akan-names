@@ -1,93 +1,105 @@
-
-body{
+body {
     background-image: url("https://cceonlinenews.com/wp-content/uploads/2017/12/Ghanas-Accra-Kumasi-railway-line-construction-to-start.jpg");
     background-size: cover;
-    font-size: 20px; 
-    color:antiquewhite;
- }
- form{
-  background-color:black;
-  padding: 20px;
-  padding-left: 80px;
-  line-height: 5px;
-  margin-top: 50px;
-  height: 200px;
-  width: 600px;
-  margin-left: 400px;
- /* margin-left: 200px; */
-        
+    font-size: 20px;
+    color: antiquewhite;
 }
-.col-md-4{
+
+form {
+    background-color: black;
+    padding: 20px;
+    padding-left: 80px;
+    line-height: 5px;
+    margin-top: 50px;
+    height: 200px;
+    width: 600px;
+    margin-left: 400px;
+    /* margin-left: 200px; */
+
+}
+
+.col-md-4 {
     font-size: 30px;
-    background-color:lightblue;
+    background-color: lightblue;
     background-size: cover;
-    color:slateblue;
+    color: slateblue;
 }
-#display,#gender,input{
-  text-align: left;
-}
-label{
- padding: 5px
-}
-.row{
- font-family:Arial, Helvetica, sans-serif;
-    }
-    h2{
-     text-align: center;
-     font-size: 40px;  
-     text-shadow: 2px 2px 5px grey; 
-     color:white;
-    }
-    h1{
-        text-align: center;
-        text-decoration: underline;
-        font-weight: bold;
 
-    }
-    #submit{
-        margin: 10px;
-        padding: 10px;
-        background-color: cornflowerblue;
-        border-radius: 5px;
-    }
-    .input{
-        padding-left: 5px;
-    }
-    .jumbotron{
-        background-color:white;
-        box-shadow: 2px 2px 5px grey;
-        color:black;
-        font-family: 'Merriweather', serif;
-    }
-    .btn btn-success{
-        margin: auto;
-        margin-left: 100px;
-    }
-    #month{
-        width: 250px;
-        border-radius: 5px;
-    }
-    #year{
-        width: 250px;
-        border-radius: 10px;
-    }
-    #dob{
-        widtpx;
-        border-radius: 5px;
-    }
-    .culture{
-        border:5px solid white;
-        background-color: black;
-        margin-left: 100px;
-        margin-right:100px;
-    }
-    .method{
-        border:5px solid white;
-        background-color: black;
-        margin-left: 400px;
-        margin-right:400px;
-    }
-    
-    
+#display,
+#gender,
+input {
+    text-align: left;
+}
 
-    
+label {
+    padding: 5px
+}
+
+.row {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px grey;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+#submit {
+    margin: 10px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+.input {
+    padding-left: 5px;
+}
+
+.jumbotron {
+    background-color: white;
+    box-shadow: 2px 2px 5px grey;
+    color: black;
+    font-family: 'Merriweather', serif;
+}
+
+.btn btn-success {
+    margin: auto;
+    margin-left: 100px;
+}
+
+#month {
+    width: 250px;
+    border-radius: 5px;
+}
+
+#year {
+    width: 250px;
+    border-radius: 10px;
+}
+
+#dob {
+    border-radius: 5px;
+}
+
+.culture {
+    border: 5px solid white;
+    background-color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.method {
+    border: 5px solid white;
+    background-color: black;
+    margin-left: 400px;
+    margin-right: 400px;
+}

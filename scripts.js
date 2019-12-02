@@ -23,9 +23,9 @@ function akanNames() {
     if (month < 13 && month > 0) {
       if (day < 32 && day > 0) {
         if (male.checked) {
-          alert("Your Akan names is " + maleNames[result]);
+          alert("Your Akan names is " + maleNames[result]+" and born on "+ daysOfWeek[result]);
         } else if (female.checked) {
-          alert("Your Akan name is " + femaleNames[result]);
+          alert("Your Akan name is " + femaleNames[result]+" and born on "+ daysOfWeek[result]);
         } else {
           alert("Choose the right gender option");
         }
